@@ -1,0 +1,17 @@
+CONTAINER ID        IMAGE               COMMAND             CREATED              STATUS                          PORTS               NAMES
+eac928e9d75b        geo-app             "python app.py"     About a minute ago   Exited (0) About a minute ago                       samplerunning
+Consultando API de geolocalización...
+
+Respuesta API:
+{'status': 'success', 'country': 'Chile', 'countryCode': 'CL', 'region': 'RM', 'regionName': 'Santiago Metropolitan', 'city': 'San Bernardo', 'zip': '', 'lat': -33.5901, 'lon': -70.6956, 'timezone': 'America/Santiago', 'isp': 'Gtd Internet S.A.', 'org': 'Gtd Internet S.A', 'as': 'AS14259 Gtd Internet S.A.', 'query': '152.230.114.18'}
+
+=== GEOLOCALIZACIÓN DETECTADA ===
+
+IP: 152.230.114.18
+País: Chile
+Ciudad: San Bernardo
+Región: Santiago Metropolitan
+Latitud: -33.5901
+Longitud: -70.6956
+ISP: Gtd Internet S.A.
+Zona Horaria: America/Santiago
